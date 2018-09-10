@@ -22,4 +22,4 @@ if ( _hcvar == 1 ) then {
 
 // Tasks
 
-if (isServer) then {execVM "mission\task.sqf"};
+//if (isServer) then {execVM "mission\task.sqf"};
