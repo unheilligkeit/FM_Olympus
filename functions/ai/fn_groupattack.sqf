@@ -11,8 +11,8 @@ _side = _this select 1;
 _unit = _this select 2;
 _ziel = _this select 3;
 _radius = _this select 4;
-_posi = getPos _spawn;
-_posis = getpos _ziel;
+_posi = getMarkerPos _spawn;
+_posis = getMarkerPos _ziel;
 
 
 	_grp  = [_posi, _side, _unit,[],[],[0.8,1]] call BIS_fnc_spawnGroup;

@@ -36,4 +36,3 @@ _grp = createGroup _site;
 		(units _grp select _x) flyInHeight _hight;
 	};
 [_grp, getpos _spawn,4000,8, "MOVE", "COMBAT", "RED", "FULL", "STAG COLUMN"] call CBA_fnc_taskPatrol;
-

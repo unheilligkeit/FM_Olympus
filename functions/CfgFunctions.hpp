@@ -21,6 +21,12 @@ class TFW
 
 	};
 
+	class client
+	{
+		file = "functions\client";
+		class teleport_to_group {};
+	};
+
 	class loadouts
 	{
 		file = "functions\loadouts";

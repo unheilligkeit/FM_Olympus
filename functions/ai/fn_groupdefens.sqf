@@ -11,9 +11,8 @@ _side = _this select 1;
 _unit = _this select 2;
 _radius = _this select 3;
 _patrol = _this select 4;
-_posi = getPos _spawn;
+_posi = getMarkerPos _spawn;
 
 
 	_grp  = [ _posi, _side, _unit] call BIS_fnc_spawnGroup;
 	[_grp, _grp , _radius,1, _patrol] call CBA_fnc_taskDefend;
-

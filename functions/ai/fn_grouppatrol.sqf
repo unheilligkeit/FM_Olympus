@@ -10,10 +10,9 @@ _spawn = _this select 0;
 _side = _this select 1;
 _unit = _this select 2;
 _radius = _this select 3;
-_posi = getPos _spawn;
+_posi = getMarkerPos _spawn;
 
 
 
 	_grp  = [_posi, _side, _unit] call BIS_fnc_spawnGroup;
 	[_grp, _posi, _radius, 7, "MOVE", "AWARE", "YELLOW", "LIMITED", "COLUMN", "_grp call CBA_fnc_searchNearby", [30,60,90]] call CBA_fnc_taskPatrol;
-

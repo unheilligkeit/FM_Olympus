@@ -48,6 +48,8 @@ _unit addItem "ACRE_PRC152";
 _unit addItemToBackpack "ACRE_PRC117F";
 // Sonstiges - Zusatzausrüstung
 _unit addItem "ACE_microDAGR";
+_unit addItem "Laserbatteries";
+
 
 
 
@@ -88,7 +90,7 @@ _unit addWeapon _sekwaffe ;
 _unit linkItem "ItemGPS";
 
 // Feldstecher
-_unit addWeapon "Binocular";
+_unit addWeapon "Laserdesignator";
 
 // Karte
 _unit linkItem "ItemMap";

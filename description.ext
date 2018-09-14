@@ -20,6 +20,16 @@ overviewPicture = "";
 enableDebugConsole = 1;
 cba_settings_hasSettingsFile = 1;
 
+corpseManagerMode = 1
+corpseLimit = 15;
+corpseRemovalMinTime = 30;
+corpseRemovalMaxTime = 300;
+
+wreckManagerMode = 1;
+wreckLimit = 10;
+wreckRemovalMinTime = 60;
+wreckRemovalMaxTime = 300;
+
 
 /* ================ Includes =============== */
 
