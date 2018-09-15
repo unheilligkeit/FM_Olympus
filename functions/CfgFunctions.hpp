@@ -57,6 +57,27 @@ class TFW
 
 	};
 
+	class logistic
+	{
+		file = "functions\logistic"
+		class clearcargo {};
+		class kistelog_init {};
+		class kistelog_spawn_1 {};
+		class kistelog_spawn_2 {};
+
+	};
+
+		class kistelog
+	{
+		file = "functions\logistic\kistelog"
+		class kistelog_munition {};
+		class kistelog_medizin {};
+		class kistelog_atmunition {};
+		class kistelog_granaten {};
+
+
+	};
+
 
 
 

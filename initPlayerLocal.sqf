@@ -17,5 +17,8 @@ if (serverTime > 3000) then {
 
 };
 
+if ((str player) == "zeus1") then { _ret = [true] call acre_api_fnc_setSpectator};
+if ((str player) == "zeus2") then { _ret = [true] call acre_api_fnc_setSpectator};
+
 
 if (true) exitWith {};
