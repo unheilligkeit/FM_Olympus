@@ -270,7 +270,7 @@ force ace_goggles_showInThirdPerson = false;
 
 // ACE Sichtweitenbegrenzung
 force ace_viewdistance_enabled = true;
-force ace_viewdistance_limitViewDistance = 500;
+force ace_viewdistance_limitViewDistance = 8000;
 ace_viewdistance_objectViewDistanceCoeff = 0;
 ace_viewdistance_viewDistanceAirVehicle = 0;
 ace_viewdistance_viewDistanceLandVehicle = 0;
