@@ -1,5 +1,5 @@
 _kistelogkiste = _this select 0;
-kistelogcenter = getPosATL kistelog_spaw_2;
+kistelogcenter = getPosATL kistelog_spawn_2;
 
 
 switch (_kistelogkiste) do

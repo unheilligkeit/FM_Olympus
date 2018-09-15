@@ -1,7 +1,7 @@
 // ACE Allgemein
 force ace_common_allowFadeMusic = true;
-force ace_common_checkPBOsAction = 0;
-force ace_common_checkPBOsCheckAll = false;
+force ace_common_checkPBOsAction = 1;
+force ace_common_checkPBOsCheckAll = true;
 force ace_common_checkPBOsWhitelist = "[]";
 force ace_common_displayTextColor = [0,0,0,0.1];
 force ace_common_displayTextFontColor = [1,1,1,1];
@@ -9,6 +9,7 @@ force ace_common_settingFeedbackIcons = 1;
 force ace_common_settingProgressBarLocation = 0;
 force ace_noradio_enabled = true;
 force ace_parachute_hideAltimeter = true;
+
 
 // ACE AuÃŸenlaststationen
 force ace_pylons_enabled = true;
@@ -60,11 +61,12 @@ force ace_ui_weaponNameBackground = true;
 force ace_ui_zeroing = true;
 
 // ACE DurchzÃ¼ndung
-force ace_cookoff_ammoCookoffDuration = 1;
-force ace_cookoff_enable = true;
-force ace_cookoff_enableAmmobox = true;
-force ace_cookoff_enableAmmoCookoff = true;
-force ace_cookoff_probabilityCoef = 0.586748;
+force force ace_cookoff_ammoCookoffDuration = 0;
+force force ace_cookoff_enable = false;
+force force ace_cookoff_enableAmmobox = false;
+force force ace_cookoff_enableAmmoCookoff = false;
+force force ace_cookoff_probabilityCoef = 0;
+
 
 // ACE Einheitenwechsel
 force ace_switchunits_enableSafeZone = false;
@@ -147,8 +149,8 @@ ace_interact_menu_textSize = 2;
 ace_interact_menu_useListMenu = true;
 
 // ACE Karte
-force ace_map_BFT_Enabled = false;
-force ace_map_BFT_HideAiGroups = false;
+force ace_map_BFT_Enabled = true;
+force ace_map_BFT_HideAiGroups = true;
 force ace_map_BFT_Interval = 1;
 force ace_map_BFT_ShowPlayerNames = false;
 force ace_map_DefaultChannel = 1;
@@ -158,6 +160,7 @@ force ace_map_mapLimitZoom = false;
 force ace_map_mapShake = true;
 force ace_map_mapShowCursorCoordinates = true;
 force ace_markers_moveRestriction = 0;
+
 
 // ACE Kartenwerkzeug
 force ace_maptools_drawStraightLines = true;
@@ -253,6 +256,7 @@ force ace_medical_useLocation_basicEpi = 0;
 force ace_medical_useLocation_PAK = 3;
 force ace_medical_useLocation_SurgicalKit = 0;
 
+
 // ACE Schnellzugang
 force ace_quickmount_distance = 3;
 force ace_quickmount_enabled = true;
@@ -263,13 +267,15 @@ force ace_quickmount_speed = 18;
 force ace_goggles_effects = 0;
 force ace_goggles_showInThirdPerson = false;
 
+
 // ACE Sichtweitenbegrenzung
-force ace_viewdistance_enabled = false;
-force ace_viewdistance_limitViewDistance = 10000;
+force ace_viewdistance_enabled = true;
+force ace_viewdistance_limitViewDistance = 500;
 ace_viewdistance_objectViewDistanceCoeff = 0;
 ace_viewdistance_viewDistanceAirVehicle = 0;
 ace_viewdistance_viewDistanceLandVehicle = 0;
 ace_viewdistance_viewDistanceOnFoot = 0;
+
 
 // ACE Splittersimulation
 force ace_frag_enabled = true;

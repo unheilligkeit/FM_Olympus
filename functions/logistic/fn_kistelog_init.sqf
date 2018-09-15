@@ -23,10 +23,10 @@ _controller_2 = _this select 1;
 		_log_kistelog_munition_1 = ["log_kistelog_munition_1", "Munition Kisten", "", { [ 1 ] call TFW_fnc_kistelog_spawn_1 }, {true}] call ace_interact_menu_fnc_createAction;
 		[_controller_1, 0, ["ACE_MainActions", "log_kistelog_main_1"], _log_kistelog_munition_1] call ace_interact_menu_fnc_addActionToObject;
 
-		_log_kistelog_atmunition_1 = ["log_kistelog_atmunition_1", "AT Munition Kisten", "", { [ 3 ] call TFW_fnc_kistelog_spawn_1 }, {true}] call ace_interact_menu_fnc_createAction;
+		_log_kistelog_atmunition_1 = ["log_kistelog_atmunition_1", "AT Munition Kisten", "", { [ 2 ] call TFW_fnc_kistelog_spawn_1 }, {true}] call ace_interact_menu_fnc_createAction;
 		[_controller_1, 0, ["ACE_MainActions", "log_kistelog_main_1"], _log_kistelog_atmunition_1] call ace_interact_menu_fnc_addActionToObject;
 
-		_log_kistelog_granaten_1 = ["log_kistelog_granaten_1", "Granaten Kisten", "", { [ 4 ] call TFW_fnc_kistelog_spawn_1 }, {true}] call ace_interact_menu_fnc_createAction;
+		_log_kistelog_granaten_1 = ["log_kistelog_granaten_1", "Granaten Kisten", "", { [ 3 ] call TFW_fnc_kistelog_spawn_1 }, {true}] call ace_interact_menu_fnc_createAction;
 		[_controller_1, 0, ["ACE_MainActions", "log_kistelog_main_1"], _log_kistelog_granaten_1] call ace_interact_menu_fnc_addActionToObject;
 
 

@@ -28,8 +28,9 @@ sleep 20;
 
 
 [{["<img size='4' image='images\logo.paa'/> <br /> <br />
-<t align = 'center' color='#ffffff' shadow = '1' size = '.8'>Task Force Wolf<br />
-Ausbildungszentrum</t>",0,0.2,10,1,0,789] spawn BIS_fnc_dynamicText;},"BIS_fnc_spawn",true] call BIS_fnc_MP;
+<t align = 'center' color='#ffffff' shadow = '1' size = '.8'>Operation Olympus<br />
+By<br />
+Task Force Wolf</t>",0,0.2,10,1,0,789] spawn BIS_fnc_dynamicText;},"BIS_fnc_spawn",true] call BIS_fnc_MP;
 
 
 _spawnhandel = [] spawn
